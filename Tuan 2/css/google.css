@@ -151,3 +151,21 @@
     text-decoration: underline;
   }
   
+
+
+
+  /* foooter */
+.footer {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer a {
+    color: #70757a;
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
