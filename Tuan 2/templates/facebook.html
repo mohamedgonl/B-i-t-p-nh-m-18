@@ -6,94 +6,121 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Facebook - Đăng nhập hoặc đăng ký</title>
     <link rel="stylesheet" href="../css/facebook.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js"></script>
   </head>
   <body>
     <div class="container">
       <main>
-        <div class="wrapper wrapper--header">
-          <div class="content content--header">
-            <div class="content__left">
-              <h1 class="content__left__title">facebook</h1>
-              <p>
-                Facebook giúp bạn kết nối và chia sẻ với mọi người trong cuộc
-                sống của bạn.
-              </p>
+        <div class="overlay"></div>
+        <div class="wrapper">
+          <div class="content">
+            <div class="top">
+              <img
+                class="close-icon"
+                src="https://static.xx.fbcdn.net/rsrc.php/v3/yO/r/zgulV2zGm8t.png"
+                alt=""
+              />
+              <h2 class="title">Đăng ký</h2>
+              <p class="subtitle">Nhanh chóng và dễ dàng</p>
             </div>
-            <div class="content__right">
-              <div class="content__right__form">
-                <form>
-                  <input
-                    class="form__control"
-                    type="text"
-                    placeholder="Email hoặc số điện thoại"
-                  />
-                  <input
-                    class="form__control"
-                    type="text"
-                    placeholder="Mật khẩu"
-                  />
-                  <button class="form__submit-btn" type="submit">
-                    Đăng nhập
-                  </button>
-                  <a href="#">Quên mật khẩu</a>
-                  <hr class="form__divider" />
-                  <button class="form__new-account">Tạo tài khoản mới</button>
-                </form>
-              </div>
-              <div class="content__right__footer">
-                <a href="#">Tạo trang</a> dành cho người nổi tiếng, thương hiệu
-                hoặc doanh nghiệp.
+
+            <div class="bottom">
+              <form>
+                <div class="form-group col">
+                  <input type="text" placeholder="Họ" />
+                  <input type="text" placeholder="Tên" />
+                </div>
+                <div class="form-group">
+                  <input type="text" placeholder="Số di động hoặc email" />
+                </div>
+
+                <div class="form-group">
+                  <input type="password" placeholder="Mật khẩu mới" />
+                </div>
+                <div class="form-group form-group-label">
+                  <div class="form-label">
+                    <span>Ngày sinh</span>
+                    <i class="fa-solid fa-circle-question"></i>
+                  </div>
+                  <div class="col">
+                    <div class="select-wrapper">
+                      <i class="fa-solid fa-angle-down"></i>
+                      <select>
+                        <option value="1">1</option>
+                        <option value="1">2</option>
+                      </select>
+                    </div>
+                    <div class="select-wrapper">
+                      <i class="fa-solid fa-angle-down"></i>
+                      <select>
+                        <option value="1">1</option>
+                        <option value="1">2</option>
+                      </select>
+                    </div>
+                    <div class="select-wrapper">
+                      <i class="fa-solid fa-angle-down"></i>
+                      <select>
+                        <option value="1">1</option>
+                        <option value="1">2</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group form-group-label">
+                  <div class="form-label">
+                    <span>Giới tính</span>
+                    <i class="fa-solid fa-circle-question"></i>
+                  </div>
+                  <div class="gender-group col-3">
+                    <label for="male">
+                      <span>Nữ</span>
+                      <input id="male" name="gender" type="radio" />
+                    </label>
+                    <label for="female">
+                      <span>Nam</span>
+                      <input id="female" name="gender" type="radio" />
+                    </label>
+                    <label for="edit">
+                      <span>Tùy chỉnh</span>
+                      <input id="edit" name="gender" type="radio" />
+                    </label>
+                  </div>
+                </div>
+              </form>
+              <p class="desc">
+                Người dùng dịch vụ của chúng tôi có thể đã tải thông tin liên hệ
+                của bạn lên Facebook.
+                <a href="#" target="_blank" rel="noopener noreferrer"
+                  >Tìm hiểu thêm</a
+                >
+              </p>
+              <p class="desc">
+                Bằng cách nhấp vào Đăng ký, bạn đồng ý với
+                <a href="#" target="_blank" rel="noopener noreferrer"
+                  >Điều khoản</a
+                >
+                <a href="#" target="_blank" rel="noopener noreferrer"
+                  >Chính sách quyền riêng tư</a
+                >
+                và
+
+                <a href="#" target="_blank" rel="noopener noreferrer"
+                  >Chính sách cookie</a
+                >
+                của chúng tôi. Bạn có thể nhận được thông báo của chúng tôi qua
+                SMS và hủy nhận bất kỳ lúc nào.
+              </p>
+
+              <div class="btn-wrapper">
+                <button class="submit-btn">Đăng ký</button>
               </div>
             </div>
           </div>
         </div>
-        <footer class="wrapper">
-          <div class="content">
-            <div class="footer__locale">
-              <ul>
-                <li>Tiếng Việt</li>
-                <li>Englist</li>
-                <li>Englist</li>
-                <li>Englist</li>
-                <li>Englist</li>
-                <li>Englist</li>
-                <li>Englist</li>
-                <li>Englist</li>
-                <li>Englist</li>
-                <li>Englist</li>
-                <li>Englist</li>
-              </ul>
-            </div>
-            <div class="footer__pages">
-              <ul>
-                <li>Đăng ký</li>
-                <li>Đăng nhập</li>
-                <li>Đăng nhập</li>
-                <li>Đăng nhập</li>
-                <li>Đăng nhập</li>
-                <li>Đăng nhập</li>
-                <li>Đăng nhập</li>
-                <li>Đăng nhập</li>
-                <li>Đăng nhập</li>
-                <li>Đăng nhập</li>
-                <li>Đăng nhập</li>
-                <li>Đăng nhập</li>
-                <li>Đăng nhập</li>
-                <li>Đăng nhập</li>
-                <li>Đăng nhập</li>
-                <li>Đăng nhập</li>
-                <li>Đăng nhập</li>
-                <li>Đăng nhập</li>
-                <li>Đăng nhập</li>
-                <li>Đăng nhập</li>
-                <li>Đăng nhập</li>
-                <li>Đăng nhập</li>
-                <li>Đăng nhập</li>
-                <li>Đăng nhập</li>
-              </ul>
-            </div>
-          </div>
-        </footer>
       </main>
     </div>
   </body>
